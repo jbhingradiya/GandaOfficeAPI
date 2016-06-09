@@ -10,7 +10,7 @@ class ExampleController extends Controller
     {
         $hello = new Hello();
 
-        $hello->name = "jaydip";
+        $hello->name = "bhingradiya";
         $hello->save();
         $name = $hello->all();
         return response()->json(['name' => $name]);
